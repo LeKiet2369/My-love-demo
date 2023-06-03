@@ -1,0 +1,497 @@
+body{
+	margin :0;
+	padding: 10;
+	font-family: sans-serif;
+	
+	width: 1350px;
+
+}
+#menu{
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+}
+#logo{
+	width: 10%;
+
+}
+#logo img{
+	margin-left: 60px;
+}
+#menungang{
+	width: 75%;
+
+}
+#logo2{
+	width: 5%;
+	
+	display: flex;
+	flex-direction: row;
+}
+
+#search{
+	width: 10%;
+}
+#search img:hover{
+	cursor: pointer;
+}
+#menungang ul {
+	list-style-type: none;
+	background: white;
+	text-align: center;
+	font-size: 14px;
+}
+#menungang ul li {
+	color: #222222;
+	display: inline-table;
+	width: 130px;
+	height: 40px;
+	line-height: 40px;
+}
+#menungang ul li a{
+	color: #444444;
+	text-decoration: none;
+	display: block;
+}
+#menungang ul li a:hover{
+	background: white;
+	color: #BB0000;
+}
+#fa img{
+	margin-top: 21px;
+}
+#fa img:hover{
+	cursor: pointer;
+}
+#in img{
+	margin-top: 25px;
+	margin-left: 5px;
+}
+#in img:hover{
+cursor: pointer;
+}
+#intro {
+	
+	height: 420px;
+}
+.slidershow{
+  width: 1365px;
+  height: 600px;
+  overflow: hidden;
+}
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.navigation{
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.bar{
+  width: 7px;
+  height: 7px;
+  border: 1px solid #BB0000;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 5px;
+
+}
+.bar:hover{
+  background: #BB0000;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+  width: 500%;
+  height: 100%;
+  display: flex;
+
+}
+
+.slide{
+  width: 20%;
+  transition: 0.6s;
+}
+.slide img{
+  width: 100%;
+  height: 100%;
+}
+
+#r1:checked ~ .s1{
+  margin-left: 0;
+}
+#r2:checked ~ .s1{
+  margin-left: -20%;
+}
+#r3:checked ~ .s1{
+  margin-left: -40%;
+}
+/*header*/
+#header{
+	width: 1000px;
+	
+	margin-left: 150px;
+}
+#header ul {
+	list-style-type: none;
+	background: white;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+#header ul li {
+	color: #BBBBBB;
+	display: inline-table;
+	width: 310px;
+	height: 40px;
+	line-height: 40px;
+	background: white;
+	
+}
+#header ul li a{
+	color: #999999;
+	text-decoration: none;
+	display: block;
+
+}
+#header ul li a:hover{
+	background: #BB0000;
+	color: white;
+}
+/*body*/
+#body{
+	
+	width: 940px;
+	margin-left: 200px;
+	margin-top: 0px;
+}
+#body1 {
+	display: flex;
+	flex-direction: row;
+}
+
+#img1{
+	width: 65%;
+
+	margin-bottom: 0px;
+}
+
+#address{
+	width: 35%;
+	background: #EEEEEE;
+}
+#tren{
+	display: flex;
+	flex-direction: row;
+}
+#chu{
+
+	width: 80%;
+	margin-left: 20px;
+}
+#hinh{
+	width: 20%;
+
+}
+#hinh img{
+margin-top: 20px;
+ 
+}
+#duoi select{
+	width: 280px;
+	height: 50px;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 18px;
+}
+#duoi p{
+	border: solid 1px;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	background: #BB0000;
+	width: 280px;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 20px;
+}
+#duoi p:hover{
+	cursor: pointer;
+	background: #880000;
+}
+#body2{
+	display: flex;
+	flex-direction: row;
+	margin-top: 0px;
+}
+#img2{
+	width: 35%;
+	
+}
+#slide2{
+	width: 65%;
+}
+#img2 img{
+	width: 328px;
+}
+/*slide*/
+#slide2 img{
+	width: 611px;
+	height: 410px;
+}
+#body3 {
+	display: flex;
+	flex-direction: row;
+}
+#mot{
+	width: 34%;
+	
+	background: #FF7F24;
+}
+#hai{
+	width: 33%;
+	
+}
+#ba{
+	width: 33%;
+	
+}
+#one{
+	display: flex;
+	flex-direction: row;
+}
+#mot h1{
+	color: #990000;
+}
+#mot img{
+	margin-left: 20px;
+}
+#hinh2 img{
+	width: 310px;
+	height: 200px;
+}
+#tren{
+	display: flex;
+	flex-direction: row;
+}
+#trai{
+	width: 70%;
+}
+#phai{
+	width: 30%;
+	color: #EE0000;
+	margin-top: 10px;
+}
+#phai:hover{
+	cursor: pointer;
+	color: #770000;
+}
+#trai p{
+	color: #EE0000;
+	margin-left: 10px;
+}
+#trai p:hover{
+	cursor: pointer;
+	color: #770000;
+}
+
+#duoi i{
+	margin-left: 10px;
+}
+
+#hinh3 img{
+	width: 310px;
+	height: 200px;
+}
+#tren1{
+	display: flex;
+	flex-direction: row;
+}
+#trai1{
+	width: 70%;
+}
+#phai1{
+	width: 30%;
+	color: #EE0000;
+	margin-top: 10px;
+}
+#phai1:hover{
+	cursor: pointer;
+	color: #770000;
+}
+#trai1 p{
+	color: #EE0000;
+	margin-left: 10px;
+}
+#trai1 p:hover{
+	cursor: pointer;
+	color: #770000;
+}
+
+#duoi1 i{
+	margin-left: 10px;
+}
+#content{
+	background: url('http://devisreadingroom.in/wp-content/uploads/2018/10/psychsci-study-banner3.jpg');
+	width: 1350px;
+	height: 200px;
+	background-repeat: no-repeat;
+	border: solid 1px #EEEEEE;
+}
+#tinh p{
+	text-align: center;
+	color: #BB0000;
+	font-size: 25px;
+
+	margin-top: 50px;
+}
+#tim p{
+	text-align: center;
+	border: solid 1px;
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 580px;
+	margin-top: 50px;
+	color: #BB0000;	
+}
+#tim p:hover{
+	cursor: pointer;
+	color: #440000;
+}	
+#end{
+	display: flex;
+	flex-direction: row;
+	background: #FFCCFF;
+}
+#end1{
+	width: 35%;
+
+}
+#end2{
+	width: 65%;
+	
+}
+#end1 p{
+	text-align: center;
+	font-size: 25px;
+	color: #333333;
+}
+#end img{
+	width: 270px;
+	height: 300px;
+	margin-left: 80px;
+}
+#menu2 {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+#mu1{
+	margin-right: 20px;
+}
+#mu1:hover{
+	cursor: pointer;
+	color: red;
+}
+#mu2{
+	margin-right: 20px;
+}
+#mu2:hover{
+	cursor: pointer;
+	color: red;
+}
+#mu3{
+	margin-right: 20px;
+}
+#mu3:hover{
+	cursor: pointer;
+	color: red;
+}
+#mu4{
+	margin-right: 20px;
+}
+#mu4:hover{
+	cursor: pointer;
+	color: red;
+}
+#mu5{
+	margin-right: 20px;
+}
+#mu5:hover{
+	cursor: pointer;
+	color: red;
+}
+#noidung4{
+	margin-left: 50px;
+	margin-right: 45px;
+}
+#noidung4 h3{
+	color: #AA0000;
+	font-size: 25px;
+}
+#chitiet{
+	border: solid 2px;
+	width: 200px;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 50px;
+	margin-top: 50px;
+	color: #AA0000;
+}
+#chitiet:hover{
+	cursor: pointer;
+	color: #880000;
+}
+#footer{
+	display: flex;
+	flex-direction: row;
+}
+#menu11 ul {
+	list-style-type: none;
+	background: white;
+	text-align: center;
+}
+#menu11 ul li {
+	color: #808080;
+	display: inline-table;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+}
+#menu11 ul li a{
+	color: #808080;
+	text-decoration: none;
+	display: block;
+}
+#menu11 ul li a:hover{
+	background: white;
+	color: #AA0000;
+}
+#icon{
+	display: flex;
+	flex-direction: row;
+}
+#icon1 img{
+	width: 30px;
+	height: 30px;
+	margin-left: 60px;
+}
+#mail p{
+	margin-top: 8px;
+	color:#AA0000; 
+}

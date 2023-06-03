@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LUYEN TAP</title>
+	<link rel="stylesheet" type="text/css" href="luyentap.css">
+</head>
+<body>
+	<div id=container>
+		<div id="header">
+			<div id="account">
+				<div id="register">register</div>
+				<div id="language">language</div>
+			</div>
+			<div id="iconweb"><img src="1.png"></div>
+			<div id="picknow"><P>BAT DAU DAT HANG</p>
+			</div>
+		</div>
+		<div id="menu"></div>
+		<div id="introweb">introweb</div>
+		<div id="content">			<div class="product">
+			<div class="iconofproduct"><img src="58443130_2226388057678455_3223044974765408256_n.png"></div>
+			<div class="contentofproduct" >
+				<div class="introduce"><h1>PIZZA TÔM VIỀN PHÔ MAI 3 VỊ</h1></div>
+				<div class="buynow">
+					<div class="styleofpizza">
+						<div class="size"><p>KÍCH CỠ</p></div>
+						<div class="type">type</div>
+					</div>
+					<div class="buyit">buyit</div>
+				</div>
+			</div>
+		</div>
+				<div class="product">product2</div>
+					<div class="product">product3</div>
+						<div class="product">product4</div>
+		</div>
+	</div>
+</body>
+</html>

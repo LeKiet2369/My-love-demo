@@ -1,0 +1,104 @@
+body{
+	margin :0;
+	padding: 0;
+}
+#container {
+	border: solid 1px;
+}
+#header,#menu,#introweb{
+	border: solid 1px;
+}
+#container{
+	margin: auto;
+	width: 1000px;
+}
+#header{
+		display: flex;
+		flex-direction: row;
+		height: 200px;
+		background-color: black;
+}
+#header div{
+	border: solid 1px;
+}
+#container #header #account{
+	width: 30%;
+	height: 
+}
+#container #header #iconweb{
+	width: 50%;
+}#container #header #picknow{
+	width: 20%;
+}
+#container #header #iconweb img{
+	height: 70%;
+}
+#container #header #picknow p{
+	border: solid 1px;
+	margin-top: 80px;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: yellow;
+	color: black;
+}
+#container #header #picknow p:hover{
+	background-color: white;
+	color: black;
+}
+
+#content{
+ height: 900px;
+ display: flex;
+ flex-wrap: wrap; 
+}
+#content .product{
+	border: solid 1px;
+	width: 45%;
+	margin: 20px; 
+	margin-right: 23px;
+	margin-left: 23px; 
+	display: flex;
+	flex-direction: row;
+}
+#content .product div{
+	border: solid 1px;
+}
+#content .product .iconofproduct{
+	width: 40%;
+} 
+#content .product .contentofproduct{
+	width: 60%;
+	display: flex;
+	flex-direction: column;	
+} 
+#content .product .contentofproduct .introduce{
+	height: 50%;
+	color: orange;
+} 
+#content .product .contentofproduct .buynow{
+	height: 50%;
+}
+#content .product .contentofproduct .buynow .styleofpizza{
+	height: 50%;
+	display: flex;
+	flex-direction: row;
+}  
+#content .product .contentofproduct .buynow .buyit{
+	height: 50%;
+}
+#content .product .contentofproduct .buynow .styleofpizza div{
+width: 50%;
+} 
+#content .product .contentofproduct .buynow .styleofpizza p{
+	border: solid 1px;
+	text-align: center;
+	padding: 10px;
+	margin-top: 30px;
+	border-radius: 5px; 
+	background-color: #e2dede;
+} 
+#content .product .contentofproduct .buynow .styleofpizza p:hover{
+	cursor: pointer;	
+} 
+
+  

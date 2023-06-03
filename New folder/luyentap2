@@ -1,0 +1,14 @@
+body{
+	margin :0;
+	padding: 0;
+}
+#container {
+	border: solid 1px;
+}
+#header #menu #introweb{
+	border: solid 1px;
+}
+#container{
+	margin: auto;
+	width: 1000px;
+}

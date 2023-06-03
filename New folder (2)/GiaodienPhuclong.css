@@ -1,0 +1,143 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+#khunglon{
+	border: solid 1px;
+	margin: auto;
+	width: 1364px;
+}
+#phandau{
+   border: solid 1px;
+   height: 70px;
+   display: flex;
+}
+#giaohang{
+	border: solid 1px;
+	width: 33%;
+	text-align: center;
+}
+#thuonghieu{
+	border: solid 1px;
+	width: 33%;
+	text-align: center;
+}
+.tuychinh{
+	display: flex;
+    list-style-type: none;
+}
+.ngonngu:hover{
+	color: red;
+}
+.giohang{
+	border: solid 1px;
+    margin-top: -4px;
+    margin-left: 146px;
+    width: 87px;
+    height: 28px;
+    border-radius: 9px;
+    line-height: 28px;
+    margin-left: 12px;
+
+}
+#chitietgiohang{
+	background-color: white;
+	width: 368px;
+	height: 288px;
+    float: left;
+    display:none; /*ẳn*/
+    position: absolute;
+    cursor: pointer;
+}
+#chitietgiohang{
+	position: relative;
+	box-shadow: inset 0px 0px 6px 2px #999999;
+}
+.giohang:hover #chitietgiohang{
+	display:block ; /*hiện */
+}
+#chitietgiohang li{
+	list-style-type: none;
+}
+#chitietgiohang a{
+	text-decoration: none;
+}
+.giohangcuaban{
+	position: relative;
+    top: 29px;
+
+}
+.xemchitiet{
+	position: relative;
+    right: -190px;
+    border: solid 1px;
+    width: 100px;
+    border-radius: 6px;
+    text-align: center;
+    color: #007739;
+    top: -18px;
+}
+#chitietgiohang .xemchitiet:hover{
+	background-color: #007739;
+	color:white;
+}
+.tongtien{
+	position: relative;
+    text-align: center;
+    bottom: -18px;
+    width: 298px;
+    font-weight: bold;
+	
+}
+.thanhtoan{
+	position: relative;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 7px;
+    width: 276px;
+    bottom: -38px;
+    height: 56px;
+    line-height: 56px;
+    right: -8px;
+    background-color: #007739;
+    color: white;
+    font-weight: bold;
+	
+}
+#chitietgiohang .thanhtoan:hover {
+	background-color: white;
+	color: #007739;
+}
+#menu {
+	text-align: center;
+}
+#menu ul li{
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;	
+	width: 150px;
+	font-weight: bold;
+}
+#bangthucuong{
+	background-color: blue;
+	width: 276px;
+	height: 100px;
+    float: left;
+    display:non; /*ẳn*/
+    position: absolute;
+}
+#bangthucuong ul{
+	position: relative;
+
+}
+.thucuong1{
+	float: left;
+	text-align: center;
+}
+
+
+	
+	
+
+

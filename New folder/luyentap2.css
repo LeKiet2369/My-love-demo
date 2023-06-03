@@ -1,0 +1,309 @@
+body{
+	margin :0;
+	padding: 10;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+#tieude{
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+}
+
+#container{
+	margin: auto;
+	width: 1100px;
+	display:flex;
+	flex-direction: column;
+}
+
+#container #header #a{
+	display: flex;
+	flex-direction:row;
+	float: right;
+	width: 250px;
+	
+}
+#header #a p{
+	margin: 1px;
+}
+#container #header #a p{
+
+	width: 400px;
+}
+#container #header #a p{
+	border: solid 1px;
+	margin-top: 10px;
+	padding: 1px;
+	border-radius: 5px;
+	background-color: yellow;
+	color: black;
+}
+#container #header #a p:hover{
+	background-color: white;
+	color: black;
+}
+#container #header #a p{
+	cursor: pointer;
+}
+#container #menu {
+
+	display: flex;
+	flex-direction:row;
+
+
+}
+#container #menu #icon{
+
+width: 8%
+margin: 10px 10px 10px 10px;
+}
+#container #menu #tieude{
+width: 12%;
+
+}#container #menu #menu2{
+
+	width: 65%;
+}
+#container #header #menu #button1{
+	width: 15%;
+}
+
+#menu2 ul {
+	list-style-type: none;
+	background: white;
+	text-align: center;
+}
+#menu2 ul li {
+	color: #808080;
+	display: inline-table;
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+}
+#menu2 ul li a{
+	color: #808080;
+	text-decoration: none;
+	display: block;
+}
+#menu2 ul li a:hover{
+	background: white;
+	color: #000000;
+}
+
+#button {
+	
+	display: flex;
+	flex-direction:row;
+}
+#button #button1{
+	
+	width: 50%;
+}
+#button #button2{
+	
+	width: 20%;
+}
+#button #button3{
+	
+	width: 30%;
+}
+#button{
+	width: 130px;
+	height: 50px;
+	line-height: 50px;
+}
+#container #header #button #button1 p{
+	
+	margin-top: 80px;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: yellow;
+	color: black;
+}
+#container #header #button #button1 p:hover{
+	background-color: white;
+	color: black;
+}
+#introweb {
+	
+	display: flex;
+	flex-direction:row;
+}
+#introweb #menuNgang{
+	
+	width: 20%;
+}
+#introweb #iconwed{
+		
+	width: 80%;
+}
+#menuNgang{
+	display: flex;
+	flex-direction:column;
+}
+#menuNgang #demuc{
+
+	width: 10%;
+}
+#menuNgang #menudoc{
+	
+	width: 90%;
+}
+#demuc {
+	padding: 0 0.5cm;
+}
+#menudoc ul{
+	width: 200px;
+	padding: 0;
+	list-style-type: none;
+}
+
+#menudoc ul li{
+	width: auto;
+	height: 25px;
+	line-height: 25px;
+	border-bottom: 1px solid #e8e8e8;
+	padding: 0 0.5cm;
+}
+#menudoc ul li a{
+	text-decoration: none;
+	color: #808080;
+	font-weight: bold;
+	display: block;
+}
+#menudoc ul li:hover{
+	background: #FFFF00;
+}
+
+#contain {
+	
+	display: flex;
+	flex-direction:row;
+
+}
+#contain #chucnang{
+	
+	width: 20%;
+}
+#contain #sanpham{
+	
+	width: 80%;
+}
+#chucnang {
+	display: flex;
+	flex-direction:column;
+	height: 500px;
+	
+	
+}
+#chucnang #thongbao{
+	border: 1px solid #CDCDCD;
+}
+#chucnang #hotro{
+	border: 1px solid #CDCDCD;
+}
+#chucnang #giao{
+	border: 1px solid #CDCDCD;
+}
+
+#chucnang div{
+	width: 150px;
+	height: 150px;
+	padding: 15px;
+	margin: 15px 5px 5px 80px;
+	margin-left: 15px;
+
+}
+
+#thongbao{	
+	display: flex;
+	flex-direction: column;
+
+	}
+#thongbao div{	
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding:0;
+	
+}
+#thongbao p{
+	margin: 0;
+}
+
+
+#hotro{	
+	display: flex;
+	flex-direction: column;
+
+	}
+#hotro div{	
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding:0;
+	
+}
+#hotro p{
+	margin: 0;
+}
+#chucnang div:hover{
+	background: orange;
+}
+#giao{	
+	display: flex;
+	flex-direction: column;
+
+	}
+#giao div{	
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding:0;
+	
+}
+#giao p{
+	margin: 0;
+}
+#sanpham{
+	display: flex;
+	flex-direction: column;
+	
+}
+#tren{
+	
+	display: flex;
+	flex-direction: row;
+	height: 250px;
+}
+
+#duoi{
+	border: solid 1px;
+}
+#tren div{
+	width: 200px;
+	height: 150px;
+	padding: 15px;
+	margin: 15px 5px 5px 80px;
+	margin-left: 15px;
+	
+	margin: 25px;
+	padding:20px;
+}
+#hinh1 {
+	width: 250px;
+	height: 200px;
+}
+#hinh1 img{
+	margin-top: -22px;
+    margin-left: -23px;
+}
+#hinh2 img{
+	margin-top: -22px;
+    margin-left: -23px;
+}
+#hinh3 img{
+	margin-top: -22px;
+    margin-left: -23px;
+}
